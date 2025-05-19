@@ -14,4 +14,7 @@ library ErrorsLib {
 
     /// @notice Thrown when the vault conversion sample is not 1 while vault = address(0).
     string constant VAULT_CONVERSION_SAMPLE_IS_NOT_ONE = "vault conversion sample is not one";
+
+    /// @notice Thrown when the asset is invalid.
+    string constant INVALID_ASSET = "invalid asset";
 }
